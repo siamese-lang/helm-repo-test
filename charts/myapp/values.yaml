@@ -1,0 +1,17 @@
+app:
+  name: myapp
+  replicaCount: 1
+
+pod:
+  image: nginx:latest
+
+service:
+  name: my-svc
+  port: 80
+  protocol: TCP
+  type: ClusterIP
+
+ingress:
+  name: my-ingress
+  type: ip
+  scheme: internet-facing
