@@ -1,6 +1,6 @@
 app:
   name: myapp
-  replicaCount: 3
+  replicaCount: 2
 
 pod:
   image: nginx:latest
